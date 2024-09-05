@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev -o",
+    "postinstall": "nuxt prepare",
+    "codegen": "graphql-codegen"
+  },
+  "dependencies": {
+    "@graphql-codegen/cli": "^5.0.2",
+    "@graphql-codegen/urql-introspection": "^3.0.0",
+    "@urql/vue": "^1.4.1",
+    "@urql/devtools": "^2.0.3",
+    "@urql/exchange-graphcache": "^7.1.2",    
+    "@nuxt/ui": "2.18.4",
+    "graphql": "16.9.0",
+    "graphql-yoga": "5.7.0",
+    "nuxt": "3.13.1",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "@types/lodash-es": "^4.17.12"
+  }
+}

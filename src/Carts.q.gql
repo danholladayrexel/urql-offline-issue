@@ -1,0 +1,19 @@
+query carts {
+  carts {
+    id
+    __typename
+  	lines {
+      id
+      __typename
+			product {
+        id
+        title
+        stock
+        price
+      }
+      qty 
+    }
+    lineCount
+    total
+  } 
+}
